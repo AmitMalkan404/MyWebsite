@@ -64,10 +64,10 @@ class App extends React.Component {
               </Navbar.Collapse>
             </Navbar>
           </Zoom>
-          <Route path="/MyWebsite/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} />} />
-          <Route path="/MyWebsite/about" exact render={() => <AboutPage title={this.state.about.title} />} />
-          <Route path="/MyWebsite/projects" exact render={() => <ProjectsPage title={this.state.projects.title} />} />
-          <Route path="/MyWebsite/contact" exact render={() => <ContactPage title={this.state.contact.title} />} />
+          <Route path="/MyWebsite/" exact render={() => <Fade><HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} /></Fade>} />
+          <Route path="/MyWebsite/about" exact render={() => <Fade><AboutPage title={this.state.about.title} /></Fade>} />
+          <Route path="/MyWebsite/projects" exact render={() => <Fade><ProjectsPage title={this.state.projects.title} /></Fade>} />
+          <Route path="/MyWebsite/contact" exact render={() => <Fade><ContactPage title={this.state.contact.title} /></Fade>} />
 
           <Footer/>
 
