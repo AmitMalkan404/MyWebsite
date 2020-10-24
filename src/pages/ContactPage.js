@@ -1,14 +1,55 @@
 import React from 'react';
 
-import { Form, FormGroup } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
+//import { Form, FormGroup } from 'react-bootstrap';
+//import Button from 'react-bootstrap/Button';
+import emailjs from 'emailjs-com';
 
-import Axios from 'axios';
-import Hero from '../components/Hero';
-import Content from '../components/Content';
+//import Axios from 'axios';
+//import Hero from '../components/Hero';
+//import Content from '../components/Content';
 
 
-class ContactPage extends React.Component {
+function ContactPage(props){
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('yahali8', 'template_x5vn8zr', e.target, 'user_X3H2rBrlRNMh6TXW9yY4V')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset()
+    }
+    return(
+        <div>
+            <div className="container">
+            <form onSubmit={sendEmail}>
+                    <div className="row pt-5 mx-auto">
+                        <div className="col-8 form-group mx-auto">
+                            <input type="text" className="form-control" placeholder="Name" name="name"/>
+                        </div>
+                        <div className="col-8 form-group pt-2 mx-auto">
+                            <input type="email" className="form-control" placeholder="Email Address" name="email"/>
+                        </div>
+                        <div className="col-8 form-group pt-2 mx-auto">
+                            <input type="text" className="form-control" placeholder="Subject" name="subject"/>
+                        </div>
+                        <div className="col-8 form-group pt-2 mx-auto">
+                            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                        </div>
+                        <div className="col-8 pt-3 mx-auto">
+                            <input type="submit" className="btn btn-info" value="Send Message"></input>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    );
+}
+
+
+/*class ContactPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -38,7 +79,7 @@ class ContactPage extends React.Component {
             disabled: true
         });
 
-        Axios.post('/api/email', this.state)
+        Axios.post('http://localhost:3030/api/email', this.state)
             .then(res => {
                 if(res.data.success) {
                     this.setState({
@@ -94,6 +135,6 @@ class ContactPage extends React.Component {
             </div>
         );
     }
-}
+}*/
 
 export default ContactPage;

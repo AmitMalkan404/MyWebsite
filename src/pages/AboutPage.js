@@ -16,7 +16,7 @@ function AboutPage(props) {
                         <img src={require('../assets/my-photo.jpg')} width="248.5" height="300"/>
                     </Col>
                     <Col md={9}>
-                        <p>Hello everyone</p>
+                        <p>Hello everyone!</p>
                         <p>My name is Amit, I'm third-year computer's science student in Bar-Ilan University with experience in Node JS, SQL, React, Python, Java, C++ and C#.</p>
                         <p>I served in the IDF for 4 and a half years as a commander in a managerial position. My works in the military service was Strategic Planning, data collection and analysis in SQL approaches with Python codes. One of the projects I am most proud of is a forecasting model that
                         predicts the profit from unmanned jobs, based on Linear regression and real time data. By using this model, my unit managed to predict savings of 3 million ILS.<br/>During my service I was awarded certificate of Excellence from the Divisional Officer for Professionalism and Responsibility.</p>
