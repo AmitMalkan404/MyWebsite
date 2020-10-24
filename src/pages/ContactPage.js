@@ -5,7 +5,7 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 
 //import Axios from 'axios';
-//import Hero from '../components/Hero';
+import Hero from '../components/Hero';
 //import Content from '../components/Content';
 
 
@@ -22,7 +22,9 @@ function ContactPage(props){
         e.target.reset()
     }
     return(
+        
         <div>
+            <Hero title={props.title} subTitle={props.subTitle} />
             <div className="container">
             <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">

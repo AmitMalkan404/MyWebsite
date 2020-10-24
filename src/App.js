@@ -31,16 +31,17 @@ class App extends React.Component {
       ],
       home: {
         title: 'Open for work!',
-        subTitle: 'Success is achieved by ordinary people with extraordinary determintaion',
+        subTitle: 'Success is achieved by ordinary people with extraordinary determintaion'
       },
       about: {
         title: 'About me'
       },
       projects: {
-        title: 'Here are some of my works'
+        title: 'My works'
       },
       contact: {
-        title: 'Let\'s stay on touch!'
+        title: 'Let\'s stay in touch!',
+        subTitle: 'Leave your details here and I\'ll contact you'
       }
     }
   }
@@ -67,7 +68,7 @@ class App extends React.Component {
           <Route path="/MyWebsite/" exact render={() => <Fade><HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} /></Fade>} />
           <Route path="/MyWebsite/about" exact render={() => <Fade><AboutPage title={this.state.about.title} /></Fade>} />
           <Route path="/MyWebsite/projects" exact render={() => <Fade><ProjectsPage title={this.state.projects.title} /></Fade>} />
-          <Route path="/MyWebsite/contact" exact render={() => <Fade><ContactPage title={this.state.contact.title} /></Fade>} />
+          <Route path="/MyWebsite/contact" exact render={() => <Fade><ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} /></Fade>} />
 
           <Footer/>
 
