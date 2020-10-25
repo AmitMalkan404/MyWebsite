@@ -35,6 +35,9 @@ function ContactPage(props){
                             <input type="email" className="form-control" placeholder="Email Address" name="email"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
+                            <input type="number" className="form-control" placeholder="Phone Number" name="phone"/>
+                        </div>
+                        <div className="col-8 form-group pt-2 mx-auto">
                             <input type="text" className="form-control" placeholder="Subject" name="subject"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
