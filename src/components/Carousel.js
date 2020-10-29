@@ -4,9 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 import flightmobile from '../assets/flightmobile.png';
-import Arkanoid from '../assets/Arkanoid.png';
-import ReactLogo from '../assets/ReactLogo.png';
-import ControlApp from '../assets/ControlApp.png';
+import Arkanoid from '../assets/arkanoid.jpg';
+import ReactLogo from '../assets/React-JS.sh_.png';
+import ControlApp from '../assets/radar.png';
 
 class Carousel extends React.Component {
 
