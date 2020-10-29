@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.5f361e03.chunk.css",
-    "main.js": "/MyWebsite/static/js/main.c6d6f4c7.chunk.js",
-    "main.js.map": "/MyWebsite/static/js/main.c6d6f4c7.chunk.js.map",
+    "main.css": "/MyWebsite/static/css/main.5b6f317f.chunk.css",
+    "main.js": "/MyWebsite/static/js/main.9fde1a81.chunk.js",
+    "main.js.map": "/MyWebsite/static/js/main.9fde1a81.chunk.js.map",
     "runtime-main.js": "/MyWebsite/static/js/runtime-main.2ec9ee0e.js",
     "runtime-main.js.map": "/MyWebsite/static/js/runtime-main.2ec9ee0e.js.map",
-    "static/css/2.f3cffc9e.chunk.css": "/MyWebsite/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.d6108339.chunk.js": "/MyWebsite/static/js/2.d6108339.chunk.js",
-    "static/js/2.d6108339.chunk.js.map": "/MyWebsite/static/js/2.d6108339.chunk.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/MyWebsite/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.f21c4271.chunk.js": "/MyWebsite/static/js/2.f21c4271.chunk.js",
+    "static/js/2.f21c4271.chunk.js.map": "/MyWebsite/static/js/2.f21c4271.chunk.js.map",
     "index.html": "/MyWebsite/index.html",
-    "precache-manifest.ce59051c4e87bbfe1477320d7bdd47a7.js": "/MyWebsite/precache-manifest.ce59051c4e87bbfe1477320d7bdd47a7.js",
+    "precache-manifest.bcc4af206e73cd494b3e17f9efd07ec5.js": "/MyWebsite/precache-manifest.bcc4af206e73cd494b3e17f9efd07ec5.js",
     "service-worker.js": "/MyWebsite/service-worker.js",
-    "static/css/2.f3cffc9e.chunk.css.map": "/MyWebsite/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.5f361e03.chunk.css.map": "/MyWebsite/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.d6108339.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.d6108339.chunk.js.LICENSE.txt",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/MyWebsite/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.5b6f317f.chunk.css.map": "/MyWebsite/static/css/main.5b6f317f.chunk.css.map",
+    "static/js/2.f21c4271.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.f21c4271.chunk.js.LICENSE.txt",
+    "static/media/Arkanoid.png": "/MyWebsite/static/media/Arkanoid.55050da9.png",
+    "static/media/index.css": "/MyWebsite/static/media/Background1.c9ef9a24.jpg",
+    "static/media/ControlApp.png": "/MyWebsite/static/media/ControlApp.685a83b4.png",
+    "static/media/ReactLogo.png": "/MyWebsite/static/media/ReactLogo.61e3d5ce.png",
+    "static/media/flightmobile.png": "/MyWebsite/static/media/flightmobile.0a33cfe1.png",
     "static/media/my-photo.jpg": "/MyWebsite/static/media/my-photo.72a25b12.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2ec9ee0e.js",
-    "static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.d6108339.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.c6d6f4c7.chunk.js"
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.f21c4271.chunk.js",
+    "static/css/main.5b6f317f.chunk.css",
+    "static/js/main.9fde1a81.chunk.js"
   ]
 }
