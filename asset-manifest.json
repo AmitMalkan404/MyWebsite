@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.7393363e.chunk.css",
-    "main.js": "/MyWebsite/static/js/main.d3e5271b.chunk.js",
-    "main.js.map": "/MyWebsite/static/js/main.d3e5271b.chunk.js.map",
+    "main.css": "/MyWebsite/static/css/main.ecce9ec6.chunk.css",
+    "main.js": "/MyWebsite/static/js/main.c044b0a9.chunk.js",
+    "main.js.map": "/MyWebsite/static/js/main.c044b0a9.chunk.js.map",
     "runtime-main.js": "/MyWebsite/static/js/runtime-main.2ec9ee0e.js",
     "runtime-main.js.map": "/MyWebsite/static/js/runtime-main.2ec9ee0e.js.map",
-    "static/css/2.8aa5a7f8.chunk.css": "/MyWebsite/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.f21c4271.chunk.js": "/MyWebsite/static/js/2.f21c4271.chunk.js",
-    "static/js/2.f21c4271.chunk.js.map": "/MyWebsite/static/js/2.f21c4271.chunk.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/MyWebsite/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.5f7ceb3e.chunk.js": "/MyWebsite/static/js/2.5f7ceb3e.chunk.js",
+    "static/js/2.5f7ceb3e.chunk.js.map": "/MyWebsite/static/js/2.5f7ceb3e.chunk.js.map",
     "index.html": "/MyWebsite/index.html",
-    "precache-manifest.8dc5b91622e7bf3f47eaa2d550283552.js": "/MyWebsite/precache-manifest.8dc5b91622e7bf3f47eaa2d550283552.js",
+    "precache-manifest.98187fb76f51d23f7c5293a02090c260.js": "/MyWebsite/precache-manifest.98187fb76f51d23f7c5293a02090c260.js",
     "service-worker.js": "/MyWebsite/service-worker.js",
-    "static/css/2.8aa5a7f8.chunk.css.map": "/MyWebsite/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.7393363e.chunk.css.map": "/MyWebsite/static/css/main.7393363e.chunk.css.map",
-    "static/js/2.f21c4271.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.f21c4271.chunk.js.LICENSE.txt",
+    "static/css/2.f3cffc9e.chunk.css.map": "/MyWebsite/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.ecce9ec6.chunk.css.map": "/MyWebsite/static/css/main.ecce9ec6.chunk.css.map",
+    "static/js/2.5f7ceb3e.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.5f7ceb3e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/MyWebsite/static/media/Background1.c9ef9a24.jpg",
     "static/media/React-JS.sh_.png": "/MyWebsite/static/media/React-JS.sh_.0378caff.png",
     "static/media/arkanoid.jpg": "/MyWebsite/static/media/arkanoid.cc68b73c.jpg",
@@ -23,9 +23,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2ec9ee0e.js",
-    "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.f21c4271.chunk.js",
-    "static/css/main.7393363e.chunk.css",
-    "static/js/main.d3e5271b.chunk.js"
+    "static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.5f7ceb3e.chunk.js",
+    "static/css/main.ecce9ec6.chunk.css",
+    "static/js/main.c044b0a9.chunk.js"
   ]
 }
