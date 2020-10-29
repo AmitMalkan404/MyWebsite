@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fee5584f9877068103422b00b09e1a07",
+    "revision": "2618d68ba847bc365abab81aab9b28c9",
     "url": "/MyWebsite/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyWebsite/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "b26f38e6a328b1b6c04b",
-    "url": "/MyWebsite/static/css/main.5b6f317f.chunk.css"
+    "revision": "a9f84577c65401860401",
+    "url": "/MyWebsite/static/css/main.7393363e.chunk.css"
   },
   {
     "revision": "b33c69c9bec865722033",
@@ -20,28 +20,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyWebsite/static/js/2.f21c4271.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b26f38e6a328b1b6c04b",
-    "url": "/MyWebsite/static/js/main.9fde1a81.chunk.js"
+    "revision": "a9f84577c65401860401",
+    "url": "/MyWebsite/static/js/main.d3e5271b.chunk.js"
   },
   {
     "revision": "aa005ab8219e6eaff1ec",
     "url": "/MyWebsite/static/js/runtime-main.2ec9ee0e.js"
   },
   {
-    "revision": "55050da9583c661c2819a0ff9ad82ab7",
-    "url": "/MyWebsite/static/media/Arkanoid.55050da9.png"
-  },
-  {
     "revision": "c9ef9a243e2fe84cea32ce0eecedf3e0",
     "url": "/MyWebsite/static/media/Background1.c9ef9a24.jpg"
   },
   {
-    "revision": "685a83b4c28e662adc2dec685a94d412",
-    "url": "/MyWebsite/static/media/ControlApp.685a83b4.png"
+    "revision": "0378caff00f03818cf32dbac7c1e83c0",
+    "url": "/MyWebsite/static/media/React-JS.sh_.0378caff.png"
   },
   {
-    "revision": "61e3d5ce3923b1a74eab3434df097990",
-    "url": "/MyWebsite/static/media/ReactLogo.61e3d5ce.png"
+    "revision": "cc68b73cb588be293b97819c966ffe14",
+    "url": "/MyWebsite/static/media/arkanoid.cc68b73c.jpg"
   },
   {
     "revision": "0a33cfe1644b56260a7d5299b69d6b66",
@@ -50,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "72a25b12b2ec1ebca9bf6b39c588825f",
     "url": "/MyWebsite/static/media/my-photo.72a25b12.jpg"
+  },
+  {
+    "revision": "5066d9f36eab50b967a3d352f0dab970",
+    "url": "/MyWebsite/static/media/radar.5066d9f3.png"
   }
 ]);
