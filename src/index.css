@@ -46,3 +46,33 @@ code {
   font-size: 16px;
   margin: 0px;
 }
+
+.social-container {
+  background: white;
+  padding: 25px 50px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.linkedin {
+  color:black;
+}
+
+a.facebook {
+  color: black;
+}
+
+a.github {
+  color: black;
+}
+
+a.google {
+  color: black;
+}
