@@ -50,6 +50,8 @@ code {
 .social-container {
   background: white;
   padding: 25px 50px;
+  width: 400px;
+  height: 70px;
 }
 a.social {
   margin: 0 1rem;
@@ -58,11 +60,15 @@ a.social {
 }
 
 a.social:hover {
-  transform: translateY(-2px);
+  transform: translateY(-5px);
 }
 
 a.linkedin {
-  color:black;
+  color: black;
+}
+
+a.email {
+  color: black;
 }
 
 a.facebook {
@@ -73,6 +79,3 @@ a.github {
   color: black;
 }
 
-a.google {
-  color: black;
-}

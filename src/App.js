@@ -9,6 +9,7 @@ import Container from 'react-bootstrap/Container';
 import './App.css';
 import { Nav, Navbar } from 'react-bootstrap';
 
+
 import { Slide,Fade,Zoom } from "react-awesome-reveal";
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
@@ -51,7 +52,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           <Zoom>
             <Navbar className="border-bottom" bg="transparent" expand="lg">
-              <Navbar.Brand>Amit Malkan</Navbar.Brand>
+              <Navbar.Brand><img src={require('../src/assets/facebook_cover_photo_1.png')} width="200" height="52.4"></img></Navbar.Brand>
               
               <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
               <Navbar.Collapse id="navbar-toggle">
