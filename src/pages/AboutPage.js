@@ -9,7 +9,14 @@ function AboutPage(props) {
 
     return(
         <div>
-            <Hero title={props.title} />
+            <Container fluid={true}>
+                <Row className="justify-content-center py-1">
+                    <Col md={10} sm={12}>
+                        {props.title && <h1 className="display-2 font-weight-bolder">{props.title}</h1>}
+                        {props.subTitle && <h2 className="display-4 font-weight-light">{props.subTitle}</h2>}
+                    </Col>
+                </Row>
+            </Container>
             <Container fluid={true}>
                 <Row className="justify-content-center">
                     <Col>

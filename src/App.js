@@ -8,6 +8,7 @@ import {
 import Container from 'react-bootstrap/Container';
 import './App.css';
 import { Nav, Navbar } from 'react-bootstrap';
+import background from './assets/Background1.jpg';
 
 
 import { Slide,Fade,Zoom } from "react-awesome-reveal";
@@ -48,33 +49,44 @@ class App extends React.Component {
   }
   render() {
     return (
-      <Router>
-        <Container className="p-0" fluid={true}>
-          <Zoom>
-            <Navbar className="border-bottom" bg="transparent" expand="lg">
-              <Navbar.Brand><img src={require('../src/assets/facebook_cover_photo_1.png')} width="200" height="52.4"></img></Navbar.Brand>
-              
-              <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-              <Navbar.Collapse id="navbar-toggle">
-                <Nav className="ml-auto">
-                  <Link className="nav-link" to="/MyWebsite/">Home</Link>
-                  <Link className="nav-link" to="/MyWebsite/about">About</Link>
-                  <Link className="nav-link" to="/MyWebsite/projects">Projects</Link>
-                  <Link className="nav-link" to="/MyWebsite/contact">Contact</Link>
-                  
-                </Nav>
-              </Navbar.Collapse>
-            </Navbar>
-          </Zoom>
-          <Route path="/MyWebsite/" exact render={() => <Fade><HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} /></Fade>} />
-          <Route path="/MyWebsite/about" exact render={() => <Fade><AboutPage title={this.state.about.title} /></Fade>} />
-          <Route path="/MyWebsite/projects" exact render={() => <Fade><ProjectsPage title={this.state.projects.title} /></Fade>} />
-          <Route path="/MyWebsite/contact" exact render={() => <Fade><ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} /></Fade>} />
+      <div
+        class="bg_image"
+        style={{
+          background: "black",
+          backgroundImage: 'url('+background+')',
+          backgroundSize: "cover",
+          height: "100%",
+          color: "#f5f5f5"
+        }}
+      >
+        <Router>
+          <Container className="p-0" fluid={true}>
+            <Zoom>
+              <Navbar className="border-bottom" bg="transparent" expand="lg">
+                <Navbar.Brand><img src={require('../src/assets/facebook_cover_photo_1.png')} width="200" height="52.4"></img></Navbar.Brand>
+                
+                <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+                <Navbar.Collapse id="navbar-toggle">
+                  <Nav className="ml-auto">
+                    <Link className="nav-link" to="/MyWebsite/" style={{color : "white", fontWeight: 700}}>Home</Link>
+                    <Link className="nav-link" to="/MyWebsite/about" style={{color : "white", fontWeight: 700}}>About</Link>
+                    <Link className="nav-link" to="/MyWebsite/projects" style={{color : "white", fontWeight: 700}}>Projects</Link>
+                    <Link className="nav-link" to="/MyWebsite/contact" style={{color : "white", fontWeight: 700}}>Contact</Link>
+                    
+                  </Nav>
+                </Navbar.Collapse>
+              </Navbar>
+            </Zoom>
+            <Route path="/MyWebsite/" exact render={() => <Fade><HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} /></Fade>} />
+            <Route path="/MyWebsite/about" exact render={() => <Fade><AboutPage title={this.state.about.title} /></Fade>} />
+            <Route path="/MyWebsite/projects" exact render={() => <Fade><ProjectsPage title={this.state.projects.title} /></Fade>} />
+            <Route path="/MyWebsite/contact" exact render={() => <Fade><ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} /></Fade>} />
 
-          <Footer/>
+            <Footer/>
 
-        </Container>
-      </Router>
+          </Container>
+        </Router>
+      </div>
     );
   }
 }

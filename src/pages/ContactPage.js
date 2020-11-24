@@ -7,6 +7,9 @@ import emailjs from 'emailjs-com';
 //import Axios from 'axios';
 import Hero from '../components/Hero';
 //import Content from '../components/Content';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
 
 function ContactPage(props){
@@ -24,7 +27,13 @@ function ContactPage(props){
     return(
         
         <div>
-            <Hero title={props.title} subTitle={props.subTitle} />
+            <Container fluid={true}>
+                <Row className="justify-content-center py-1">
+                    <Col md={10} sm={12}>
+                        {props.title && <h1 className="display-2 font-weight-bolder">{props.title}</h1>}
+                    </Col>
+                </Row>
+            </Container>
             <div className="container">
             <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">

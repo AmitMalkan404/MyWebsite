@@ -17,9 +17,9 @@ code {
 }
 
 .jumbotron {
-  background-image: url("./assets/Background1.jpg");
   background-size: cover;
-  color: white
+  color: white;
+  background-image: transparent;
 }
 
 .g-card-image {
@@ -48,7 +48,7 @@ code {
 }
 
 .social-container {
-  background: white;
+  background: transparent;
   padding: 25px 50px;
   width: 400px;
   height: 70px;
@@ -64,18 +64,22 @@ a.social:hover {
 }
 
 a.linkedin {
-  color: black;
+  color: rgb(133, 133, 133);
 }
 
 a.email {
-  color: black;
+  color: rgb(133, 133, 133);
 }
 
 a.facebook {
-  color: black;
+  color: rgb(133, 133, 133);
 }
 
 a.github {
-  color: black;
+  color: rgb(133, 133, 133);
 }
 
+.backgroundImage {
+  width: 100%;
+  height: 100vh;
+}
