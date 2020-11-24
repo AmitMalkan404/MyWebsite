@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.6f3a8a13.chunk.css",
-    "main.js": "/MyWebsite/static/js/main.f6f67aa5.chunk.js",
-    "main.js.map": "/MyWebsite/static/js/main.f6f67aa5.chunk.js.map",
+    "main.css": "/MyWebsite/static/css/main.57b4c426.chunk.css",
+    "main.js": "/MyWebsite/static/js/main.1cb9b72b.chunk.js",
+    "main.js.map": "/MyWebsite/static/js/main.1cb9b72b.chunk.js.map",
     "runtime-main.js": "/MyWebsite/static/js/runtime-main.2ec9ee0e.js",
     "runtime-main.js.map": "/MyWebsite/static/js/runtime-main.2ec9ee0e.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/MyWebsite/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.48fd64c1.chunk.js": "/MyWebsite/static/js/2.48fd64c1.chunk.js",
-    "static/js/2.48fd64c1.chunk.js.map": "/MyWebsite/static/js/2.48fd64c1.chunk.js.map",
+    "static/js/2.0402f718.chunk.js": "/MyWebsite/static/js/2.0402f718.chunk.js",
+    "static/js/2.0402f718.chunk.js.map": "/MyWebsite/static/js/2.0402f718.chunk.js.map",
     "index.html": "/MyWebsite/index.html",
-    "precache-manifest.7de2dc82f03de6629e475648339cb767.js": "/MyWebsite/precache-manifest.7de2dc82f03de6629e475648339cb767.js",
+    "precache-manifest.41cb18178915ed83629e588a55fe811a.js": "/MyWebsite/precache-manifest.41cb18178915ed83629e588a55fe811a.js",
     "service-worker.js": "/MyWebsite/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/MyWebsite/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.6f3a8a13.chunk.css.map": "/MyWebsite/static/css/main.6f3a8a13.chunk.css.map",
-    "static/js/2.48fd64c1.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.48fd64c1.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/MyWebsite/static/media/Background1.c9ef9a24.jpg",
+    "static/css/main.57b4c426.chunk.css.map": "/MyWebsite/static/css/main.57b4c426.chunk.css.map",
+    "static/js/2.0402f718.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.0402f718.chunk.js.LICENSE.txt",
+    "static/media/Background1.jpg": "/MyWebsite/static/media/Background1.c9ef9a24.jpg",
     "static/media/React-JS.sh_.png": "/MyWebsite/static/media/React-JS.sh_.0378caff.png",
     "static/media/arkanoid.jpg": "/MyWebsite/static/media/arkanoid.cc68b73c.jpg",
     "static/media/facebook_cover_photo_1.png": "/MyWebsite/static/media/facebook_cover_photo_1.43d5ffe1.png",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.2ec9ee0e.js",
     "static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.48fd64c1.chunk.js",
-    "static/css/main.6f3a8a13.chunk.css",
-    "static/js/main.f6f67aa5.chunk.js"
+    "static/js/2.0402f718.chunk.js",
+    "static/css/main.57b4c426.chunk.css",
+    "static/js/main.1cb9b72b.chunk.js"
   ]
 }
