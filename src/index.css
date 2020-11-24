@@ -49,13 +49,13 @@ code {
 
 .social-container {
   background: transparent;
-  padding: 25px 50px;
+  padding: 0px 0px;
   width: 400px;
   height: 70px;
 }
 a.social {
   margin: 0 1rem;
-  transition: transform 250ms;
+  transition: transform 300ms;
   display: inline-block;
 }
 
