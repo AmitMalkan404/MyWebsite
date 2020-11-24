@@ -56,6 +56,7 @@ class App extends React.Component {
           backgroundImage: 'url('+background+')',
           backgroundSize: "cover",
           height: "100%",
+          width: "100%",
           color: "#f5f5f5"
         }}
       >
