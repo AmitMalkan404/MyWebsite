@@ -16,6 +16,8 @@ function Footer() {
                     <Col className="p-0" md={3} sm={12}>
                         <SocialFollow />
                     </Col>
+                    <Col>
+                    </Col>
                 </Row>
             </Container>
         </footer>
