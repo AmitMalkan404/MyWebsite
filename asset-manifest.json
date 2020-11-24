@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.57b4c426.chunk.css",
-    "main.js": "/MyWebsite/static/js/main.70ed99d5.chunk.js",
-    "main.js.map": "/MyWebsite/static/js/main.70ed99d5.chunk.js.map",
+    "main.css": "/MyWebsite/static/css/main.e24737e3.chunk.css",
+    "main.js": "/MyWebsite/static/js/main.577fb2f8.chunk.js",
+    "main.js.map": "/MyWebsite/static/js/main.577fb2f8.chunk.js.map",
     "runtime-main.js": "/MyWebsite/static/js/runtime-main.2ec9ee0e.js",
     "runtime-main.js.map": "/MyWebsite/static/js/runtime-main.2ec9ee0e.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/MyWebsite/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.0402f718.chunk.js": "/MyWebsite/static/js/2.0402f718.chunk.js",
-    "static/js/2.0402f718.chunk.js.map": "/MyWebsite/static/js/2.0402f718.chunk.js.map",
+    "static/js/2.aab6b9f4.chunk.js": "/MyWebsite/static/js/2.aab6b9f4.chunk.js",
+    "static/js/2.aab6b9f4.chunk.js.map": "/MyWebsite/static/js/2.aab6b9f4.chunk.js.map",
     "index.html": "/MyWebsite/index.html",
-    "precache-manifest.cc2735c95cc5192b7388bfcba5f64b79.js": "/MyWebsite/precache-manifest.cc2735c95cc5192b7388bfcba5f64b79.js",
+    "precache-manifest.b5b59aab2b5084454b60718ecf376496.js": "/MyWebsite/precache-manifest.b5b59aab2b5084454b60718ecf376496.js",
     "service-worker.js": "/MyWebsite/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/MyWebsite/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.57b4c426.chunk.css.map": "/MyWebsite/static/css/main.57b4c426.chunk.css.map",
-    "static/js/2.0402f718.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.0402f718.chunk.js.LICENSE.txt",
+    "static/css/main.e24737e3.chunk.css.map": "/MyWebsite/static/css/main.e24737e3.chunk.css.map",
+    "static/js/2.aab6b9f4.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.aab6b9f4.chunk.js.LICENSE.txt",
     "static/media/Background1.jpg": "/MyWebsite/static/media/Background1.c9ef9a24.jpg",
     "static/media/React-JS.sh_.png": "/MyWebsite/static/media/React-JS.sh_.0378caff.png",
     "static/media/arkanoid.jpg": "/MyWebsite/static/media/arkanoid.cc68b73c.jpg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.2ec9ee0e.js",
     "static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.0402f718.chunk.js",
-    "static/css/main.57b4c426.chunk.css",
-    "static/js/main.70ed99d5.chunk.js"
+    "static/js/2.aab6b9f4.chunk.js",
+    "static/css/main.e24737e3.chunk.css",
+    "static/js/main.577fb2f8.chunk.js"
   ]
 }
