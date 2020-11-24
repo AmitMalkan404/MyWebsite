@@ -33,6 +33,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Open for work!',
+        text: <br></br>,
         subTitle: 'Success is achieved by ordinary people with extraordinary determintaion'
       },
       about: {
@@ -78,7 +79,7 @@ class App extends React.Component {
                 </Navbar.Collapse>
               </Navbar>
             </Zoom>
-            <Route path="/MyWebsite/" exact render={() => <Fade><HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} /></Fade>} />
+            <Route path="/MyWebsite/" exact render={() => <Fade><HomePage title={this.state.home.title} text={this.state.home.text} subTitle={this.state.home.subTitle} /></Fade>} />
             <Route path="/MyWebsite/about" exact render={() => <Fade><AboutPage title={this.state.about.title} /></Fade>} />
             <Route path="/MyWebsite/projects" exact render={() => <Fade><ProjectsPage title={this.state.projects.title} /></Fade>} />
             <Route path="/MyWebsite/contact" exact render={() => <Fade><ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} /></Fade>} />
